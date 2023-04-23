@@ -35,7 +35,7 @@ class optimizer_SGD():
         else:
             ''' Vanilla SGD wiithout momentum '''
             weight_updates = -self.current_learning_rate*layer.dweights
-            bias_updates = -self..current_learning_rate*layer.dbiases
+            bias_updates = -self.current_learning_rate*layer.dbiases
         ### Perform updates on all parameters
         layer.weights+=weight_updates
         layer.bias+=bias_updates
