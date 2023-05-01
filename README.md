@@ -9,7 +9,7 @@ Binary Logistic Regression
    |__main.py - Training Function + Function Calls
 
 
-\code
+```ruby
 // ==UserScript==
 // @name         quillSuperBot
 // @namespace    quillbot.taozhiyu.gitee.io
@@ -39,3 +39,4 @@ Binary Logistic Regression
         }
     });
 })();
+```
